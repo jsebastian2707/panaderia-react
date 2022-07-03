@@ -8,7 +8,7 @@ class App extends React.Component  {
   state = {
     page: 3,
     load: false,
-    cartarray: [{id: 0, cant: 2},{id: 2, cant: 4}]
+    cartarray: []
   };
   numproductos(){
     let contador=0;
