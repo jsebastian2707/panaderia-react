@@ -1,0 +1,37 @@
+[
+    {
+        "name":"nevado",
+        "description":"pan dulce con mantequilla",
+        "price":300
+    },
+    {
+        "name":"croassan",
+        "description":"pan mediano relleno jamon y queso",
+        "price":3400
+    },
+    {
+        "name":"buñuelo",
+        "description":"pan mediano con mortadela o jamon mas queso",
+        "price":3400
+    },
+    {
+        "name":"churros",
+        "description":"pan mediano con mortadela o jamon mas queso",
+        "price":3400
+    },
+    {
+        "name":"sanwich",
+        "description":"pan mediano con mortadela o jamon mas queso",
+        "price":3400
+    },
+    {
+        "name":"pan pizza",
+        "description":"pan mediano con mortadela o jamon mas queso",
+        "price":3400
+    },
+    {
+        "name":"pan rollo",
+        "description":"pan mediano con mortadela o jamon mas queso",
+        "price":3400
+    }
+]

@@ -1,38 +1,85 @@
-.App {
+@font-face {
+  font-family:'roach';
+  src: url('RoachFont-Regular.ttf') format("truetype");
+}
+
+.App-header,footer,.contact{
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  transform: translate(-10px, 15px) scale(1.8);
+  z-index: 10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shop-icon{
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.shop-icon div{
+  width: 20px;
+  height: 20px;
+  background-color: #5F5F5F;
+  position: absolute;
+  top: 20px; 
+  left: 15px;
+  border-radius: 25%;
+}
+
+.shop-icon p{
+  font-size: 0.8em;
+  line-height: 110%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.main {
+  background-color: #deb887;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-item{
+  height: 80vh;
+  object-fit: cover;
+}
+
+.Shop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.Shop .card{
+  margin: 5px;
+}
+
+.Shop .card .card-img-top{
+  height: 190px;
+  object-fit: cover;
+}
+
+.Shop .card-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Shop .card-title span{
+  color: #9A0101;
+}
+
+.contact{
+  background-color: #deb887;
+  padding-top: 20px;
+}
+
+.contact-content{
+  background-color: black;
+  height: 90vh;
+}
+
+.contact-content p{
+  color: white;
+  font-family: 'roach';
+  font-size: 10rem;
 }
