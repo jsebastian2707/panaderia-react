@@ -9,15 +9,15 @@ este proyecto es un pequeño aplicativo para hacer compras en una panaderia;
 use React-bootstrap para el carousel
 ![cart screenshot](/public/screenshots/home_ss.png?raw=true "home screenshot")
 
+<!-- language: lang-none -->
+       ▄▀▀▄ ▀▀▄  ▄▀▀▄ ▄▀▀▄  ▄▀▀▀▀▄  ▄▀▀█▄▄▄▄
+      █   ▀▄ ▄▀ █   █    █ █ █   ▐ ▐  ▄▀   ▐
+      ▐     █   ▐  █    █     ▀▄     █▄▄▄▄▄
+            █     █    █   ▀▄   █    █    ▌
+          ▄▀       ▀▄▄▄▄▀   █▀▀▀    ▄▀▄▄▄▄ 
+          █                 ▐       █    ▐ 
+         ▐                         ▐ 
 
-
-   ▄▀▀▄ ▀▀▄  ▄▀▀▄ ▄▀▀▄  ▄▀▀▀▀▄  ▄▀▀█▄▄▄▄ 
-  █   ▀▄ ▄▀ █   █    █ █ █   ▐ ▐  ▄▀   ▐ 
-  ▐     █   ▐  █    █     ▀▄     █▄▄▄▄▄  
-        █     █    █   ▀▄   █    █    ▌  
-      ▄▀       ▀▄▄▄▄▀   █▀▀▀    ▄▀▄▄▄▄   
-      █                 ▐       █    ▐   
-     ▐                         ▐   
 
 ## to do 
 -corregir y aumentar los datos del menu en el json
